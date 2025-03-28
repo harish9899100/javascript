@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        Hello World
-    </div>
-</body>
-    <script src="demo.js"></script>
+<html>
+    <head>
+        <title>simple function</title>
+    </head>
+    <body>
+        <h1>how to use function in javascript::</h1>
+        <p id="message">This is a paragraph without change::</p>
+        <button onclick="myfun()">Change value</button>
+        <button onclick="youfun()">Same value</button>
+    </body>
+    <script>
+        function myfun(){
+            document.getElementById("message").innerText = "Now paragraph value is changed$$";
+        }
+        function youfun(){
+            document.getElementById("message").innerText = "This is a paragraph without change::";
+        }
+    </script>
 </html>
