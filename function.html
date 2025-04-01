@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <h1>Calculator through function::</h1>
+    <p id="bca"></p>
+</body>
+<script>
+    function add(a, b){
+        return a + b;
+    }
+    function sub(a, b){
+        return a - b;
+    }
+    function mult(a, b){
+        return a * b;
+    }
+    function devi(a, b){
+        return a / b;
+    }
+    let x = add(10, 5);
+    document.getElementById("bca").innerHTML = x;
+
+    let y = sub(10, 5);
+    document.getElementById("bca").innerHTML = y;
+
+    let z = mult(10, 5);
+    document.getElementById("bca").innerHTML = z;
+    
+    let w = devi(10, 5);
+    document.getElementById("bca").innerHTML = w;
+</script>
+</html>
