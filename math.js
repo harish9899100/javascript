@@ -59,3 +59,9 @@
 // console.log(Math.log2(1000));
 // console.log(Math.log10(1000));
 
+
+// random Number 10 and 100
+// console.log(Math.random()*10);
+// console.log(Math.random()*100);
+
+console.log(Math.floor(Math.random()*10));
