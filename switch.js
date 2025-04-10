@@ -54,6 +54,8 @@
 //         console.log("it's not fruit:")
 //}
 
+
+//even odd:
 let num = 400;
 switch(num % 2){
     case 0:
