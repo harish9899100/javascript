@@ -25,3 +25,5 @@ let mohit = new Student("mohit", 6000015, "kuchaman");
 console.log("\nName :" + mohit.Studentname + "\nRoll number :" + mohit.Studentrollno + "\ncity :" + mohit.Studentcity);
 let pankaj = new Student("pankaj", 7000015, "dhigal");
 console.log("\nName :" + pankaj.Studentname + "\nRoll number :" + pankaj.Studentrollno + "\ncity :" + pankaj.Studentcity);
+let rohit = new Student("rohit", 45365346, "Noida");
+console.log("\nName :" + rohit.Studentname + "\nRoll number :" + rohit.Studentrollno + "\ncity :" + rohit.Studentcity);
