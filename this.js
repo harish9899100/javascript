@@ -19,13 +19,13 @@ function Student(name, rollno, city){
     this.Studentrollno = rollno;
     this.Studentcity = city;
 }
-let harish = new Student("harish", 581618, "jaipur");
-console.log("Name :" + harish.Studentname + "\nRoll number :" + harish.Studentrollno + "\n city :" + harish.Studentcity);
-let mohit = new Student("mohit", 6000015, "kuchaman");
-console.log("\nName :" + mohit.Studentname + "\nRoll number :" + mohit.Studentrollno + "\ncity :" + mohit.Studentcity);
-let pankaj = new Student("pankaj", 7000015, "dhigal");
-console.log("\nName :" + pankaj.Studentname + "\nRoll number :" + pankaj.Studentrollno + "\ncity :" + pankaj.Studentcity);
-let rohit = new Student("rohit", 45365346, "Noida");
-console.log("\nName :" + rohit.Studentname + "\nRoll number :" + rohit.Studentrollno + "\ncity :" + rohit.Studentcity);
+let Harish = new Student("Harish", 581618, "jaipur");
+console.log("Name :" + Harish.Studentname + "\nRoll number :" + Harish.Studentrollno + "\n city :" + Harish.Studentcity);
+let Mohit = new Student("Mohit", 6000015, "kuchaman");
+console.log("\nName :" + Mohit.Studentname + "\nRoll number :" + Mohit.Studentrollno + "\ncity :" + Mohit.Studentcity);
+let Pankaj = new Student("Pankaj", 7000015, "dhigal");
+console.log("\nName :" + Pankaj.Studentname + "\nRoll number :" + Pankaj.Studentrollno + "\ncity :" + Pankaj.Studentcity);
+let Rohit = new Student("Rohit", 45365346, "Noida");
+console.log("\nName :" + Rohit.Studentname + "\nRoll number :" + Rohit.Studentrollno + "\ncity :" + Rohit.Studentcity);
 let Ankit = new Student("Ankit", 35345, "USA");
 console.log("\nName :" + Ankit.Studentname + "\nRoll number :" + Ankit.Studentrollno + "\ncity :" + Ankit.Studentcity);
